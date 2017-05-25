@@ -67,7 +67,7 @@ function draw() {
     bestGuess = "prediction: 2";
   }
 
-  text("keys: 0-2: change current class (" + currentClass + "), t: train 20 iterations, c: clear current samples n=" + trainingSamples.length +
+  text("keys: 0-2: change current class (" + currentClass + "), t: train " + nIterations  +" iterations, c: clear current samples n=" + trainingSamples.length +
     /*"\n\nclass 0 probability: " + nf(probability_volume2.w[0], 1, 2) +
     "\nclass 1 probability: " + nf(probability_volume2.w[1], 1, 2) +
     "\nclass 2 probability: " + nf(probability_volume2.w[2], 1, 2) +*/
